@@ -1,4 +1,4 @@
-Debian - PostgreSQL9.6 (日本環境）
+# Debian - PostgreSQL9.6 (日本環境） #
 
 オフィシャルのPostgreSQLを元に日本環境の調整を行いました。
 
