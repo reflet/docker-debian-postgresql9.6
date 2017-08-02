@@ -14,8 +14,8 @@ Debian - PostgreSQL9.6 (日本環境）
 下記のコマンドにてコンテナを起動します
 
 ```
-$ docker pull reflet/debian8-postgre96
-$ docker run --rm -u "postgres" -it reflet/debian8-postgre96 bash
+$ docker pull reflet/debian8-postgres9.6
+$ docker run --rm -u "postgres" -it reflet/debian8-postgres9.6 bash
 ```
 
 ### メンテナンス ###
@@ -24,7 +24,7 @@ $ docker run --rm -u "postgres" -it reflet/debian8-postgre96 bash
 
 ```
 $ git clone https://github.com/reflet/docker-debian-postgresql9.6.git .
-$ docker build -t reflet/debian8-postgre96 .
+$ docker build -t reflet/debian8-postgres9.6 .
 $ docker login
 $ docker tag reflet/debian8-postgres9.6 reflet/debian8-postgres9.6:{tag}
 $ docker push reflet/debian8-postgres9.6
