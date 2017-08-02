@@ -23,10 +23,10 @@ $ docker run --rm -u "postgres" -it reflet/debian8-postgre96 bash
 下記のコマンドにてソースのダウンロードとイメージの構築を実行します。
 
 ```
-$ git clone git@bitbucket.org:reflet/docker-debian8-postgre96.git .
+$ git clone https://github.com/reflet/docker-debian-postgresql9.6.git .
 $ docker build -t reflet/debian8-postgre96 .
 $ docker login
-$ docker tag reflet/debian8-postgre96 reflet/debian8-postgre96:{tag}
-$ docker push reflet/debian8-postgre96
+$ docker tag reflet/debian8-postgres9.6 reflet/debian8-postgres9.6:{tag}
+$ docker push reflet/debian8-postgres9.6
 ```
 
