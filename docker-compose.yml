@@ -9,9 +9,9 @@ services:
  postgres:
   image: reflet/debian8-postgres96
   container_name: 'postgres'
-  env_file: postgres.env
+  env_file: .env.postgres
   volumes:
-      - ./postgres-initdb.d:/docker-entrypoint-initdb.d/
+      - ./initdb.postgres:/docker-entrypoint-initdb.d/
   ports:
       - "5432:5432"
   volumes_from:
