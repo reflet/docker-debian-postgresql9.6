@@ -16,8 +16,3 @@ ENV TZ JST-9
 # etc
 ENV TERM xterm
 
-# user setting
-#WORKDIR /var/lib/postgresql/
-#RUN groupmod -g 500 postgres \
-#    && usermod -u 500 postgres
-

@@ -12,7 +12,6 @@ services:
 
 volumes:
   db-data:
-#    driver: local
     driver_opts:
       type: none
       device: /home/vagrant/test/data/postgres/
